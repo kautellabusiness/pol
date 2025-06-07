@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astroline</title>
+    <title>AstroLos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
                     </svg>
                 </a>
             </button>
-            <a href="#" class="text-[#f2e6c4] text-xl font-bold no-underline">Astroquiz</a>
+            <a href="#" class="text-[#f2e6c4] text-xl font-bold no-underline">AstroLos</a>
             <span class="text-[#ced1c9] text-sm">11/11</span>
         </div>
         <div class="w-full h-1.5 bg-[#1e293b] rounded-full overflow-hidden mt-5">
@@ -37,7 +37,7 @@
 
     <div class="text-center mb-5 mt-1 px-4 w-full">
         <p class="text-2xl font-semibold text-[#f2e6c4] leading-tight">
-            Tire uma foto da <strong class="text-[#faf6e8]">palma</strong> da sua <strong class="text-[#faf6e8]">mão esquerda</strong>
+            Zrób zdjęcie <strong class="text-[#faf6e8]">dłoni</strong> swojej <strong class="text-[#faf6e8]">lewej ręki</strong>
         </p>
     </div>
 
@@ -49,7 +49,7 @@
 
     <div class="w-full px-6 mt-4">
         <p class="text-sm text-[#ffffffb3] text-center sans">
-            A privacidade é uma prioridade para nós. Processamos apenas dados não identificáveis para garantir o anonimato.
+            Prywatność jest dla nas priorytetem. Przetwarzamy tylko dane nieidentyfikowalne, aby zapewnić anonimowość.
         </p>
     </div>
 
@@ -58,41 +58,42 @@
             <p id="inicial" class="px-2 py-1 text-xs bg-[#2d5668] text-white rounded-full shadow-xl mr-1 border border-[#000]"></p>
             <p id="email" class="text-center sans text-[#14d5c2] font-light text-xs"></p>
         </div>
-        <p class="text-xs text-center sans text-[#fff9] mt-1">Acabei de receber previsões</p>
+        <p class="text-xs text-center sans text-[#fff9] mt-1">Właśnie otrzymałem/otrzymałam prognozy</p>
     </div>
 
     <div class="w-full flex justify-center items-center mt-6">
         <a href="photo.html" onclick="redirecionar()" class="bg-[#17cfbc] text-white text-lg rounded-full py-3 px-12 font-bold w-[90%] max-w-[400px] text-center transition-all duration-300 no-underline hover:bg-[#00847C] hover:text-white active:scale-98">
-            Tirar Foto
+            Zrób zdjęcie
         </a>
     </div>
 
     <div class="flex items-center justify-center mt-4">
         <a href="upload.html" onclick="redirecionarSecondary()" class="text-center text-[#14d5c2] text-base font-semibold sans">
-            Enviar foto da palma da mão
+            Wyślij zdjęcie dłoni
         </a>
     </div>
 
     <script>
         const emails = [
-            "sarah****@gmail.com", "emili*****@outlook.com", "joao****@yahoo.com", "lucas*****@hotmail.com", "maria****@live.com",
-            "ana****@gmail.com", "pedro*****@outlook.com", "fernando****@yahoo.com", "julia*****@hotmail.com", "marcos****@live.com",
-            "roberta****@gmail.com", "carlos*****@outlook.com", "amanda****@yahoo.com", "daniel*****@hotmail.com", "leticia****@live.com",
-            "gustavo****@gmail.com", "beatriz*****@outlook.com", "ricardo****@yahoo.com", "juliana*****@hotmail.com", "rafael****@live.com",
-            "vanessa****@gmail.com", "alexandre*****@outlook.com", "renata****@yahoo.com", "fabio*****@hotmail.com", "patricia****@live.com",
-            "thiago****@gmail.com", "carolina*****@outlook.com", "eduardo****@yahoo.com", "tatiane*****@hotmail.com", "felipe****@live.com",
-            "samara****@gmail.com", "rodrigo*****@outlook.com", "mateus****@yahoo.com", "larissa*****@hotmail.com", "adriana****@live.com",
-            "anderson****@gmail.com", "gabriela*****@outlook.com", "wellington****@yahoo.com", "aline*****@hotmail.com", "danilo****@live.com",
-            "helena****@gmail.com", "joel*****@outlook.com", "camila****@yahoo.com", "diego*****@hotmail.com", "sabrina****@live.com",
-            "sergio****@gmail.com", "priscila*****@outlook.com", "douglas****@yahoo.com", "natalia*****@hotmail.com", "roberto****@live.com",
-            "francisco****@gmail.com", "elisa*****@outlook.com", "paulo****@yahoo.com", "aline*****@hotmail.com", "joana****@live.com",
-            "mauricio****@gmail.com", "esther*****@outlook.com", "jonas****@yahoo.com", "silvia*****@hotmail.com", "hugo****@live.com",
-            "sueli****@gmail.com", "cicero*****@outlook.com", "luana****@yahoo.com", "marcelo*****@hotmail.com", "josiane****@live.com",
-            "wagner****@gmail.com", "isabela*****@outlook.com", "antonio****@yahoo.com", "tais*****@hotmail.com", "evandro****@live.com",
-            "jaqueline****@gmail.com", "vitor*****@outlook.com", "mirela****@yahoo.com", "bruno*****@hotmail.com", "giselle****@live.com",
-            "alessandro****@gmail.com", "diana*****@outlook.com", "vinicius****@yahoo.com", "luiza*****@hotmail.com", "fabricio****@live.com",
-            "andrea****@gmail.com", "emanuel*****@outlook.com", "caio****@yahoo.com", "mirian*****@hotmail.com", "rafaela****@live.com",
-            "gilberto****@gmail.com", "fernanda*****@outlook.com", "osvaldo****@yahoo.com", "jessica*****@hotmail.com", "carla****@live.com"
+            "anna****@gmail.com", "emilia*****@outlook.com", "jan****@yahoo.com", "lukasz*****@hotmail.com", "maria****@live.com",
+            "agata****@gmail.com", "piotr*****@outlook.com", "franciszek****@yahoo.com", "julia*****@hotmail.com", "marek****@live.com",
+            "zofia****@gmail.com", "karol*****@outlook.com", "agata****@yahoo.com", "dawid*****@hotmail.com", "lena****@live.com",
+            "grzegorz****@gmail.com", "beata*****@outlook.com", "krzysztof****@yahoo.com", "karolina*****@hotmail.com", "rafal****@live.com",
+            "weronika****@gmail.com", "alek*****@outlook.com", "agnieszka****@yahoo.com", "fabian*****@hotmail.com", "patrycja****@live.com",
+            "filip****@gmail.com", "karolina*****@outlook.com", "edward****@yahoo.com", "tomasz*****@hotmail.com", "feliks****@live.com",
+            "stefan****@gmail.com", "roman*****@outlook.com", "mateusz****@yahoo.com", "elzbieta*****@hotmail.com", "adrianna****@live.com",
+            "andrzej****@gmail.com", "magdalena*****@outlook.com", "wiktor****@yahoo.com", "alina*****@hotmail.com", "dawid****@live.com",
+            "helena****@gmail.com", "joel*****@outlook.com", "kamila****@yahoo.com", "dawid*****@hotmail.com", "sabina****@live.com",
+            "sergiusz****@gmail.com", "marzena*****@outlook.com", "damian****@yahoo.com", "natalia*****@hotmail.com", "roman****@live.com",
+            "franciszek****@gmail.com", "eliza*****@outlook.com", "pawel****@yahoo.com", "alina*****@hotmail.com", "joanna****@live.com",
+            "michal****@gmail.com", "estera*****@outlook.com", "janusz****@yahoo.com", "silwia*****@hotmail.com", "wojciech****@live.com",
+            "sylwia****@gmail.com", "wiktor*****@outlook.com", "lena****@yahoo.com", "marek*****@hotmail.com", "joanna****@live.com",
+            "wiktor****@gmail.com", "izabela*****@outlook.com", "anton****@yahoo.com", "tadeusz*****@hotmail.com", "ewan****@live.com",
+            "jakub****@gmail.com", "wiktoria*****@outlook.com", "mirela****@yahoo.com", "brunon*****@hotmail.com", "giselle****@live.com",
+            "aleksander****@gmail.com", "diana*****@outlook.com", "wincenty****@yahoo.com", "lucja*****@hotmail.com", "fabian****@live.com",
+            "andrzej****@gmail.com", "emanuel*****@outlook.com", "caio****@yahoo.com", "mirian*****@hotmail.com", "rafaela****@live.com",
+            "grzegorz****@gmail.com", "irena*****@outlook.com", "oswald****@yahoo.com", "karolina*****@hotmail.com"
+
         ]; // Gerado por IA, pode aumentar a quantidade de emails se achar necessario ^
 
         const emailElement = document.getElementById("email");
